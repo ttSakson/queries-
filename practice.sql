@@ -124,9 +124,3 @@ WHERE p.start_date BETWEEN '2025-05-01' AND '2025-05-31'
 GROUP BY p.project_name, d.dept_name
 ORDER BY SUM(t.hours_spent) DESC;
 
-
-
-SELECT *
-FROM employees
-WHERE salary > 50000;
-
